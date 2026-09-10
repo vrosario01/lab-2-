@@ -1,13 +1,16 @@
-from operator import truediv
-
-
 def pythagorean_triples( a, b, c):
-  if  a**2+b**2==c**2:
+  if  a**2 + b**2 == c**2:
     return True
-  elif a**2+b**2>c**2:
-    return False
   else:
     return False
-    print(pythagorean_triples(3,4,7))
 
+""" number^2 + number^2 = number^2  --> True
+  pythagorean triples takes in parameter a b and c and if a^2 + b^2 = c^2 then returns true if not the function returns it false
+>>> print(pythagorean_triples(3,4,5))
+True
+>>> print(pythagorean_triples(6,4,8))
+False
+>>> print(pythagorean_triples(3,3,3))
+False
+"""
 
