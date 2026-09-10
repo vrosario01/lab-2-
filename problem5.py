@@ -1,5 +1,3 @@
-
-
 def trailing_zeros(n):
     if n % 10 == 0:
         return 1 + (trailing_zeros(n // 10))
