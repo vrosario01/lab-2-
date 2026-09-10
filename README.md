@@ -1,4 +1,4 @@
-# lab-2-
+
 # Lab-2
 In this lab, we'll build more sophisticated functions using our new skills of conditions, recursion, currying, lambdas, and while statements.  (In case this list causes you concern, it is likely that you may not actually use all of them for this lab!)
 
