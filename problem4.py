@@ -4,12 +4,14 @@ def wears_jackets(temp, raining):
     else:
         return False
 
-""" wears_jackets takes in values temp and raining and only returns true if the temp < 60 or it is raining and returns false otherwise"""
->>>print(wears_jackets(80, True))
-true
->>>print(wears_jackets(80, False))
-
-
+""" wears_jackets takes in values temp and raining and only returns true if the temp < 60 or it is raining and returns false otherwise
+>>>print(wears_jackets(70, True))
+True
+>>>print(wears_jackets(70, False))
+False
+>>>print(wears_jackets(50, False))
+True
+"""
 
 
 
