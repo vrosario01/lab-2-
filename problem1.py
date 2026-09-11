@@ -8,7 +8,7 @@ False
 >>> print(pythagorean_triples(3,3,3))
 False
 """
-  if  a**2 + b**2 == c**2:
+if  a**2 + b**2 == c**2:
     return True
   else:
     return False
